@@ -1,0 +1,17 @@
+This is a shared file available on multiple content servers.
+When a client requests this file, the Index Server will select
+the best server based on current load and availability.
+
+SHARED FILE CONTENT
+==================
+This file demonstrates the CDN's ability to distribute
+the same content across multiple servers for redundancy
+and load balancing.
+
+Line 11: The quick brown fox jumps over the lazy dog.
+Line 12: Pack my box with five dozen liquor jugs.
+Line 13: How vexingly quick daft zebras jump!
+Line 14: The five boxing wizards jump quickly.
+Line 15: Sphinx of black quartz, judge my vow.
+
+End of shared file.

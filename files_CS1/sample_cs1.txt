@@ -1,0 +1,10 @@
+Hello from Content Server 1!
+This is a sample text file hosted on CS1.
+The Micro-CDN system distributes files to clients through multiple content servers.
+
+Line 5: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Line 6: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Line 7: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Line 8: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+Line 9: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+Line 10: End of sample file from CS1.

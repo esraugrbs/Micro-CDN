@@ -1,0 +1,6 @@
+Hello from Content Server 2!
+This is a different sample text file hosted on CS2.
+Each content server may host unique files or share common ones.
+
+This file is only available on Content Server 2.
+Clients requesting this file will be directed to CS2.
