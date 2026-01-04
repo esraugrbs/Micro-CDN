@@ -297,6 +297,4 @@ Command-line arguments:
 - `--output-dir`: Download directory (default: downloads)
 - `-i, --interactive`: Interactive mode
 
-## Author
 
-CSE4074 Computer Networks - Fall 2025
