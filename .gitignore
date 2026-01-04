@@ -20,7 +20,7 @@ downloads/
 Thumbs.db
 
 # PDF (assignment file)
-*.pdf
+!*.pdf
 
 # Byte-compiled files
 *.pyc
