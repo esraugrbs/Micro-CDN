@@ -43,9 +43,7 @@ def main():
         # Step 3: Start Content Server 1
         print("[3/4] Starting Content Server 1...")
         cs1 = subprocess.Popen(
-            [PYTHON, os.path.join(SCRIPT_DIR, "content_server.py"),
-             "--id", "CS1", "--tcp-port", "7001", "--udp-port", "7002",
-             "--files-dir", os.path.join(SCRIPT_DIR, "files_CS1")],
+            [PYTHON, os.path.join(SCRIPT_DIR, "start_cs1.py")],
             cwd=SCRIPT_DIR
         )
         processes.append(("Content Server 1", cs1))
@@ -54,9 +52,7 @@ def main():
         # Step 4: Start Content Server 2
         print("[4/4] Starting Content Server 2...")
         cs2 = subprocess.Popen(
-            [PYTHON, os.path.join(SCRIPT_DIR, "content_server.py"),
-             "--id", "CS2", "--tcp-port", "7101", "--udp-port", "7102",
-             "--files-dir", os.path.join(SCRIPT_DIR, "files_CS2")],
+            [PYTHON, os.path.join(SCRIPT_DIR, "start_cs2.py")],
             cwd=SCRIPT_DIR
         )
         processes.append(("Content Server 2", cs2))
